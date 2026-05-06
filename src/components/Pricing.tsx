@@ -11,8 +11,8 @@ const plans = [
       "Diseño moderno adaptable a celular",
       "Entrega rápida",
     ],
-    priceEUR: 250,
-    priceUSD: 300,
+    priceEUR: 330,
+    priceUSD: 390,
     whatsappUrl: "https://wa.me/34624537879?text=Hola!%20Me%20interesa%20la%20web%20básica.%20Quisiera%20más%20información.",
   },
   {
@@ -25,8 +25,8 @@ const plans = [
       "Optimiza la experiencia del usuario",
       "Estructura enfocada en conversión",
     ],
-    priceEUR: 500,
-    priceUSD: 600,
+    priceEUR: 670,
+    priceUSD: 790,
     whatsappUrl: "https://wa.me/34624537879?text=Hola!%20Me%20interesa%20la%20web%20profesional.%20Quisiera%20más%20información.",
   },
   {
@@ -39,8 +39,8 @@ const plans = [
       "Diseño 100% personalizado",
       "Preparada para crecimiento futuro",
     ],
-    priceEUR: 800,
-    priceUSD: 950,
+    priceEUR: 1_260,
+    priceUSD: 1_490,
     whatsappUrl: "https://wa.me/34624537879?text=Hola!%20Me%20interesa%20la%20web%20completa%20con%20funcionalidades.%20Quisiera%20más%20información.",
   },
 ];
