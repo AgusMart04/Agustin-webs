@@ -1,0 +1,19 @@
+{
+  "name": "Webs para Negocios Locales",
+  "short_name": "Webs Negocios",
+  "description": "Diseño web profesional para restaurantes, salones y negocios locales que quieren vender más.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["business", "services"],
+  "lang": "es"
+}

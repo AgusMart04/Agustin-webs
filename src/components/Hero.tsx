@@ -55,9 +55,10 @@ const Hero = () => (
             
             {/* Phone mockup with 3D tilt */}
             <div className="relative animate-float" style={{ perspective: "1000px" }}>
-              <img src={heroMockup} alt="Demo de web para restaurante en celular" width={400} height={500}
+              <img src={heroMockup} alt="Ejemplo de página web profesional para restaurante en dispositivo móvil con diseño moderno y optimizado para conversiones" width={400} height={500}
                 className="relative z-10 w-full max-w-[300px] md:max-w-[380px] drop-shadow-2xl"
-                style={{ transform: "rotateY(-5deg) rotateX(2deg)" }} />
+                style={{ transform: "rotateY(-5deg) rotateX(2deg)" }}
+                fetchPriority="high" />
             </div>
 
             {/* Floating UI elements */}
