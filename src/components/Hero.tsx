@@ -1,5 +1,6 @@
 import heroMockup from "@/assets/hero-mockup.png";
 import { MessageCircle, Star, CalendarDays, TrendingUp, Clock } from "lucide-react";
+import { Link } from '@tanstack/react-router'
 
 const WHATSAPP_URL = "https://wa.me/34624537879?text=Hola%21%20He%20visto%20tu%20p%C3%A1gina%20web%20y%20me%20gustar%C3%ADa%20solicitar%20una%20demo.%20%C2%BFPodr%C3%ADas%20darme%20m%C3%A1s%20informaci%C3%B3n%3F";
 
@@ -40,10 +41,10 @@ const Hero = () => (
               Quiero mi web
               <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
             </a>
-            <a href="#demos"
+            <Link to="/demos"
               className="glass text-primary-foreground font-semibold text-lg px-8 py-4 rounded-xl hover:bg-primary-foreground/10 transition-all duration-300 text-center min-h-[56px] flex items-center justify-center">
               Ver demos
-            </a>
+            </Link>
           </div>
         </div>
 

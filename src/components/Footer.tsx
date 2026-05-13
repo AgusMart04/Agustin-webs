@@ -1,4 +1,6 @@
-const Footer = () => (
+import { memo } from 'react'
+
+const Footer = memo(() => (
   <footer className="bg-primary py-8">
     <div className="container text-center">
       <p className="text-primary-foreground/50 text-sm">
@@ -6,6 +8,8 @@ const Footer = () => (
       </p>
     </div>
   </footer>
-);
+));
+
+Footer.displayName = 'Footer'
 
 export default Footer;

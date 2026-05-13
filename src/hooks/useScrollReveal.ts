@@ -13,8 +13,29 @@ export const useScrollReveal = () => {
       { threshold: 0.1, rootMargin: "0px 0px -40px 0px" }
     );
 
-    document.querySelectorAll(".scroll-reveal").forEach((el) => observer.observe(el));
+    const observeElements = () => {
+      document.querySelectorAll(".scroll-reveal").forEach((el) => {
+        if (!el.classList.contains("revealed")) {
+          observer.observe(el);
+        }
+      });
+    };
 
-    return () => observer.disconnect();
+    observeElements();
+
+    // MutationObserver to detect new elements added to DOM (for lazy loaded components)
+    const mutationObserver = new MutationObserver(() => {
+      observeElements();
+    });
+
+    mutationObserver.observe(document.body, {
+      childList: true,
+      subtree: true,
+    });
+
+    return () => {
+      observer.disconnect();
+      mutationObserver.disconnect();
+    };
   }, []);
 };
