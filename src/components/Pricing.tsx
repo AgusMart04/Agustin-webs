@@ -8,11 +8,11 @@ const plans = [
       "Página landing optimizada para mostrar tu negocio",
       "Secciones claras: servicios, info y contacto",
       "Botón directo a WhatsApp",
-      "Diseño moderno adaptable a celular",
+      "Diseño moderno alineado a tu marca",
       "Entrega rápida",
     ],
-    priceEUR: 330,
-    priceUSD: 390,
+    priceEUR: 250,
+    priceUSD: 300,
     whatsappUrl: "https://wa.me/34624537879?text=Hola!%20Me%20interesa%20la%20web%20básica.%20Quisiera%20más%20información.",
   },
   {
@@ -21,12 +21,12 @@ const plans = [
     features: [
       "Múltiples secciones y navegación fluida",
       "Formulario de contacto",
-      "Diseño personalizado alineado a tu marca",
-      "Optimiza la experiencia del usuario",
+      "Integracion de pagos online",
+      "Conexiones con mapa y redes sociales",
       "Estructura enfocada en conversión",
     ],
-    priceEUR: 670,
-    priceUSD: 790,
+    priceEUR: 500,
+    priceUSD: 600,
     whatsappUrl: "https://wa.me/34624537879?text=Hola!%20Me%20interesa%20la%20web%20profesional.%20Quisiera%20más%20información.",
   },
   {
@@ -35,12 +35,12 @@ const plans = [
     features: [
       "Sistema diseñado para automatizar y generar clientes",
       "Funcionalidades: reservas, turnos o integraciones",
-      "Conexiones con mapa y redes sociales",
+      "Sistema autogestionable de tu negocio",
       "Diseño 100% personalizado",
       "Preparada para crecimiento futuro",
     ],
-    priceEUR: 1_260,
-    priceUSD: 1_490,
+    priceEUR: 1_080,
+    priceUSD: 1_260,
     whatsappUrl: "https://wa.me/34624537879?text=Hola!%20Me%20interesa%20la%20web%20completa%20con%20funcionalidades.%20Quisiera%20más%20información.",
   },
 ];
@@ -59,7 +59,7 @@ const Pricing = () => {
           ¿Cuánto cuesta una página web?
         </h2>
         <p className="text-center text-muted-foreground text-lg max-w-xl mx-auto mb-6 scroll-reveal">
-          El precio depende de lo que necesite tu negocio. Estos son ejemplos claros para que tengas una idea rápida.
+          Cada proyecto se adapta a las necesidades de tu negocio. Estos planes son una referencia para orientarte sobre precios y alcance.
         </p>
 
         {/* Currency Toggle */}
@@ -142,7 +142,7 @@ const Pricing = () => {
         </div>
 
         <p className="text-center text-muted-foreground text-sm max-w-2xl mx-auto mt-12 scroll-reveal">
-          Cada proyecto es único, estos precios son orientativos. Si no estás seguro de qué necesitás, escribeme y lo vemos juntos sin compromiso.
+          Cada proyecto es único, por eso los precios son orientativos. Si no estás seguro de lo que necesitas, escribeme y vemos juntos la mejor opción para tu negocio.
         </p>
       </div>
     </section>
